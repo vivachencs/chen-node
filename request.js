@@ -4,7 +4,7 @@
 class Request {
     constructor() {
     	// request 原始信息
-		this.row = ''
+		this.raw = ''
 		// 请求方法
 		this.method = 'GET'
 		this.path = ''

@@ -28,7 +28,7 @@ const load = (path) => {
 		encoding: 'utf8',
 	}
 	// 确定文件是否存在
-	ensureExists(paht)
+	ensureExists(path)
 	// 读取文件, 如果指定读取参数 readFileSync 函数就会直接返回字符串, 而不是 buffer
 	const s = fs.readFileSync(path, options)
 	// 反序列化数据

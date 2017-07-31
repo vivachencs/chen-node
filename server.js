@@ -51,8 +51,10 @@ const responseFor = (r, request) => {
 
 	request.raw = r
 	request.method = raws[0]
-	let pathname = raw[1]
+	let pathname = raws[1]
+	// log('debug pathname', pathname)
 	let { path, query } = parsedPath(pathname)
+	// log('debug path and query', path, query)
 	request.path = path
 	request.query = query
 	request.body = raw.split('\r\n\r\n')[1]
@@ -94,6 +96,9 @@ const run = (host='', port=3000) => {
 
 			// 调用 responseFor 得到响应
 			const response = responseFor(r, request)
+			// log('debug original request\n', r)
+			// log('dubug request instance\n', request)
+			// log('debug response: \n', response)
 
 			// 发送响应数据
 			socket.write(response)
