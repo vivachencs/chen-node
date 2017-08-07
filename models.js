@@ -65,26 +65,62 @@ class Model {
 		return instance
 	}
 
+	static findOne(key, value) {
+		const all = this.all()
+		let model = null
+        for (let i = 0; i < all.length; i++) {
+            let m = all[i]
+			if (m[key] === value) {
+            	model = m
+				return false
+			}
+        }
+        return model
+	}
+
+	static find(key, value) {
+		const all = this.all()
+		let models = []
+        for (let i = 0; i < all.length; i++) {
+            let m = all[i]
+			if (m[key] === value) {
+            	models.push(m)
+			}
+        }
+        return models
+	}
+
 	// 保存一个实例
 	save() {
 		const cls = this.constructor
 		const models = cls.all()
-		models.push(this)
+		if (this.id === undefined) {
+            // 如果 id 不存在, 说明为新增数据
+            if (models.length > 0) {
+				const last = models[models.length - 1]
+				this.id = last.id + 1
+			} else {
+				this.id = 0
+			}
+			models.push(this)
+		} else {
+			// 如果 id 存在, 说明为修改数据
+			let index = -1
+            for (let i = 0; i < models.length; i++) {
+                let m = models[i]
+                if (m.id === this.id) {
+                    index = i
+                    break
+                }
+            }
+            if (index > -1) {
+				models[index] = this
+			}
+		}
 		const path = cls.dbPath()
 		save(models, path)
 	}
 
-	// toString() {
-	// 	const classname = this.constructor.name
-	// 	const keys = Object.keys(this)
-	// 	const properties = keys.map((k) => {
-	// 		const v = this[k]
-	// 		const s = `${k}: (${v})`
-	// 		return s
-	// 	}).join('\n  ')
-	// 	const s = `< ${classname}: \n ${properties}\n>\n`
-	// 	return s
-	// }
 	toString() {
 		const s = JSON.stringify(this, null, 2)
 		return s
@@ -96,16 +132,20 @@ class User extends Model {
         super()
 		this.username = form.username || ''
 		this.password = form.password || ''
+		this.id = form.id
+		this.note = form.note || ''
     }
 
     // 验证登录
     validateLogin() {
-    	return this.username === 'gua' && this.password === '123'
+    	const u = User.findOne('username', this.username)
+		return u !== null && u.password === this.password
 	}
 
 	// 验证注册
 	validataRegister() {
-		return this.username.length > 2 && this.password.length > 2
+    	const u = User.findOne('username', this.username)
+		return u !== null && this.username.length > 2 && this.password.length > 2
 	}
 }
 
@@ -122,3 +162,16 @@ module.exports = {
 	User: User,
 	Message: Message,
 }
+
+// const test = () => {
+// 	const form = {
+// 		username: 'chen12',
+// 		password: '123',
+// 	}
+// 	const u = User.create(form)
+// 	// u.save()
+// 	log(u.validataRegister())
+// 	// log()
+// }
+//
+// test()

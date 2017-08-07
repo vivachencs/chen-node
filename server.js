@@ -122,7 +122,7 @@ const run = (host='', port=3000) => {
 // 程序入口
 const __main = () => {
 	// 传入参数, 运行服务器
-	const host = ''
+	const host = '0.0.0.0'
 	const port = 3000
 	run(host, port)
 }
