@@ -18,7 +18,7 @@ class Request {
 
     //
     addCookies() {
-		const cookies = this.headers.Cookies || ''
+		const cookies = this.headers.Cookie || ''
 		const pairs = cookies.split('; ')
 		pairs.forEach((pair) => {
 			if (pair.includes('=')) {
@@ -26,15 +26,15 @@ class Request {
 				this.cookies[k] = v
 			}
 		})
-	}
+    }
 
 	//
 	addHeaders(headers) {
-    	headers.forEach((header) => {
+        headers.forEach((header) => {
     		const [k, v] = header.split(': ')
 			this.headers[k] = v
 		})
-		this.addCookies()
+        this.addCookies()
 	}
 
     // 解析 POST 方式的 form data

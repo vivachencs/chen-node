@@ -48,10 +48,19 @@ const parsedPath = (path) => {
 const parseRaw = (raw) => {
 	const r = raw
 	const line = r.split(' ')
-	const [ method, url, ...] = line
+	const [method, url, ..._] = line
 	const { path, query } = parsedPath(url)
 	const message = r.split('\r\n\r\n')
-	const headers =
+	const headers = message[0].split('\r\n').slice(1)
+	const body = message[1]
+
+	return {
+		method: method,
+		path: path,
+		query: query,
+		headers: headers,
+		body: body,
+	}
 }
 
 // 响应函数
@@ -59,27 +68,19 @@ const parseRaw = (raw) => {
 const responseFor = (raw, request) => {
 	// 解析原始请求
 	const r = parseRaw(raw)
-	request.method = r.method
+    request.method = r.method
 	request.path = r.path
 	request.query = r.query
 	request.body = r.body
 
-	request.raw = r
-	request.method = raws[0]
-	let pathname = raws[1]
-	// log('debug pathname', pathname)
-	let { path, query } = parsedPath(pathname)
-	// log('debug path and query', path, query)
-	request.path = path
-	request.query = query
-	request.body = raw.split('\r\n\r\n')[1]
+    request.addHeaders(r.headers)
 
 	// 定一个基本的空 route
 	const route = {}
 	// 将引入的 routeMapper 与 route 合并
 	const routes = Object.assign(route, routeMapper)
 	// 获取 response 函数
-	const response = routes[path] || error
+	const response = routes[r.path] || error
 	const resp = response(request)
 	return resp
 }
@@ -104,16 +105,15 @@ const run = (host='', port=3000) => {
 			const request = new Request()
 			// 将 buffer 类型的数据转化为字符串, 取得请求原始数据
 			const r = data.toString('utf8')
-			log('接受到的原始数据\n', r)
+			if (r.split(' ')[1] !== '/robots.txt' && r.split(' ')[1] !== '/favicon.ico') {
+                log('1. 接受到的原始数据\n', r)
+            }
 
 			const ip = socket.localAddress
-			log(`ip and request, ${ip}\n${r}`)
+			// log(`ip and request, ${ip}\n${r}`)
 
 			// 调用 responseFor 得到响应
 			const response = responseFor(r, request)
-			// log('debug original request\n', r)
-			// log('dubug request instance\n', request)
-			// log('debug response: \n', response)
 
 			// 发送响应数据
 			socket.write(response)

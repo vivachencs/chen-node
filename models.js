@@ -72,7 +72,7 @@ class Model {
             let m = all[i]
 			if (m[key] === value) {
             	model = m
-				return false
+				break
 			}
         }
         return model
@@ -138,14 +138,22 @@ class User extends Model {
 
     // 验证登录
     validateLogin() {
-    	const u = User.findOne('username', this.username)
-		return u !== null && u.password === this.password
+    	let valid = false
+        const u = User.findOne('username', this.username)
+		if (u !== null && this.password === u.password) {
+    		valid = true
+		}
+		return valid
 	}
 
 	// 验证注册
 	validataRegister() {
-    	const u = User.findOne('username', this.username)
-		return u !== null && this.username.length > 2 && this.password.length > 2
+    	let valid = false
+        const u = User.findOne('username', this.username)
+		if (u === null && this.username.length > 2 && this.password.length > 2) {
+            valid = true
+		}
+		return valid
 	}
 }
 
@@ -163,15 +171,16 @@ module.exports = {
 	Message: Message,
 }
 
-// const test = () => {
-// 	const form = {
-// 		username: 'chen12',
-// 		password: '123',
-// 	}
-// 	const u = User.create(form)
-// 	// u.save()
-// 	log(u.validataRegister())
-// 	// log()
-// }
-//
+const test = () => {
+	const form = {
+		username: 'chen12',
+		password: '123',
+	}
+	const u = User.findOne('username', 'chenxi')
+	log(u)
+	// // u.save()
+	// log(u.validataRegister())
+	// log()
+}
+
 // test()

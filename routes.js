@@ -25,7 +25,9 @@ const randomStr = () => {
 // 获取当前登录用户的 username
 const currentUser = (request) => {
     // 获取 username 对应的 cookie 值
+    // log('debug currentuser request', request)
     const id = request.cookies.user || ''
+    log('debug session[id]', session)
     // 将取得的 cookie 值通过 session 进行匹配
     const username = session[id] || '游客'
     return username
@@ -60,8 +62,9 @@ const index = (request) => {
         'Content-Type': 'text/html',
     }
     const header = headerFromMapper(headers)
-    const body = template('index.html')
+    let body = template('index.html')
     const username = currentUser(request)
+    // log('debug index username', username)
     body = body.replace('{{username}}', username)
     const r = header + '\r\n' + body
     return r
@@ -74,12 +77,14 @@ const login = (request) => {
     }
     let result
     if (request.method === 'POST') {
-
         const form = request.form()
         const u = User.create(form)
         if (u.validateLogin()) {
+            // log('login in')
             const sid = randomStr()
+            // log('debug sid', sid)
             session[sid] = u.username
+            // log('debug session', session)
             headers['Set-Cookie'] = `user=${sid}`
             result = '登录成功'
         } else {
@@ -92,12 +97,15 @@ const login = (request) => {
     let body = template('login.html')
 	body = body.replace('{{result}}', result)
     body = body.replace('{{username}}', username)
-    const header = headerFromMapper(header)
+    const header = headerFromMapper(headers)
     const r = header + '\r\n' + body
     return r
 }
 
 const register = (request) => {
+    const headers = {
+        'Content-Type': 'text/html',
+    }
     let result
     if (request.method === 'POST') {
         const form = request.form()
@@ -112,7 +120,7 @@ const register = (request) => {
     } else {
         result = ''
     }
-    const header = 'HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n'
+    const header = headerFromMapper(headers)
     let body = template('register.html')
     body = body.replace('{{result}}', result)
     const r = header + '\r\n' + body
@@ -120,12 +128,17 @@ const register = (request) => {
 }
 
 const message = (request) => {
+    const headers = {
+        'Content-Type': 'text/html',
+    }
+    // log('debug request', request)
     if (request.method === 'POST') {
         const form = request.form()
-        const m = Message.create()
+        log('debug form', form)
+        const m = Message.create(form)
         m.save()
     }
-    const header = 'HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n'
+    const header = headerFromMapper(headers)
     let body = template('message.html')
     const ms = Message.all()
     body = body.replace('{{messages}}', ms)
@@ -133,12 +146,23 @@ const message = (request) => {
     return r
 }
 
+const profile = (request) => {
+    const headers = {
+        'Content-Type': 'text/html',
+    }
+    let result
+    if 
+    const header = headerFromMapper(headers)
+    let body = template('profile.html')
+    body = body.replace('{{result}}', result)
+}
+
 const static = (request) => {
     const filename = request.query.file || 'doge.gif'
     const path = `static/${filename}`
     const body = fs.readFileSync(path)
-    const header = 'HTTP/1.1 200 OK\r\nContent-Type: image/gif\r\n\r\n'
-    const h = Buffer.from(header)
+    const header = headerFromMapper()
+    const h = Buffer.from(header + '\r\n')
     const r = Buffer.concat([h, body])
     return r
 }
@@ -149,15 +173,16 @@ const routeMapper = {
     '/login': login,
     '/register': register,
     '/message': message,
+    '/profile': profile,
 }
 
 module.exports = routeMapper
 
-const test = () => {
-    const headers = {
-        'Content-Type': 'text/html',
-    }
-    const header = headerFromMapper(headers)
-}
-
-test()
+// const test = () => {
+//     const headers = {
+//         'Content-Type': 'text/html',
+//     }
+//     const header = headerFromMapper(headers)
+// }
+//
+// test()
