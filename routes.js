@@ -6,7 +6,30 @@ const { log } = require('./utils')
 
 const { User, Message } = require('./models')
 
-const messageList = []
+// 一个全局变量, 用于保存 session 信息
+const session = {}
+
+// 生成一个随机字符串
+const randomStr = () => {
+    // 字符池
+    const seed = 'asdfghjokpwefdsui3456789dfghjk67wsdcfvgbnmkcvb2e'
+    let s = ''
+    for (let i = 0; i < 16; i++) {
+        const random = Math.random() * (seed.length - 2)
+        const index = Math.floor(random)
+        s += seed[index]
+    }
+    return s
+}
+
+// 获取当前登录用户的 username
+const currentUser = (request) => {
+    // 获取 username 对应的 cookie 值
+    const id = request.cookies.user || ''
+    // 将取得的 cookie 值通过 session 进行匹配
+    const username = session[id] || '游客'
+    return username
+}
 
 // 读取 html 文件
 const template = (name) => {
@@ -18,30 +41,58 @@ const template = (name) => {
     return content
 }
 
-const index = () => {
-    const header = 'HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n'
+// 通过 mapper 对象设置 header 值
+const headerFromMapper = (mapper={}) => {
+    let base = 'HTTP/1.1 200 OK\r\n'
+    const keys = Object.keys(mapper)
+    const s = keys.map((k) => {
+        const v = mapper[k]
+        const h = `${k}: ${v}\r\n`
+        return h
+    }).join('')
+    const header = base + s
+    return header
+}
+
+// 首页处理函数
+const index = (request) => {
+    const headers = {
+        'Content-Type': 'text/html',
+    }
+    const header = headerFromMapper(headers)
     const body = template('index.html')
+    const username = currentUser(request)
+    body = body.replace('{{username}}', username)
     const r = header + '\r\n' + body
     return r
 }
 
+// 登录处理函数
 const login = (request) => {
+    const headers = {
+        'Content-Type': 'text/html',
+    }
     let result
-    if (request.method !== 'POST') {
-        const form = request.query
+    if (request.method === 'POST') {
+
+        const form = request.form()
         const u = User.create(form)
         if (u.validateLogin()) {
+            const sid = randomStr()
+            session[sid] = u.username
+            headers['Set-Cookie'] = `user=${sid}`
             result = '登录成功'
         } else {
-            // log('**********************************')
             result = '用户名或者密码错误'
         }
     } else {
         result = ''
     }
-    const header = 'HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n'
+    const username = currentUser(request)
     let body = template('login.html')
 	body = body.replace('{{result}}', result)
+    body = body.replace('{{username}}', username)
+    const header = headerFromMapper(header)
     const r = header + '\r\n' + body
     return r
 }
@@ -49,9 +100,8 @@ const login = (request) => {
 const register = (request) => {
     let result
     if (request.method === 'POST') {
-        const form = request.body
+        const form = request.form()
         const u = User.create(form)
-        log('debug', u.validataRegister())
         if (u.validataRegister()) {
             u.save()
             const us = User.all()
@@ -102,3 +152,12 @@ const routeMapper = {
 }
 
 module.exports = routeMapper
+
+const test = () => {
+    const headers = {
+        'Content-Type': 'text/html',
+    }
+    const header = headerFromMapper(headers)
+}
+
+test()

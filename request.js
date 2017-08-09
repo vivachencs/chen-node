@@ -1,6 +1,8 @@
 /**
  * Created by Chen on 2017/7/29.
  */
+const { log } = require('./utils')
+
 class Request {
     constructor() {
     	// request 原始信息
@@ -10,7 +12,30 @@ class Request {
 		this.path = ''
 		this.query = {}
 		this.body = ''
+		this.headers = {}
+		this.cookies = {}
     }
+
+    //
+    addCookies() {
+		const cookies = this.headers.Cookies || ''
+		const pairs = cookies.split('; ')
+		pairs.forEach((pair) => {
+			if (pair.includes('=')) {
+				const [k, v] = pair.split('=')
+				this.cookies[k] = v
+			}
+		})
+	}
+
+	//
+	addHeaders(headers) {
+    	headers.forEach((header) => {
+    		const [k, v] = header.split(': ')
+			this.headers[k] = v
+		})
+		this.addCookies()
+	}
 
     // 解析 POST 方式的 form data
     form() {

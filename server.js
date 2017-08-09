@@ -43,11 +43,26 @@ const parsedPath = (path) => {
 	}
 }
 
+
+// 解析原始请求数据, 得到对应参数
+const parseRaw = (raw) => {
+	const r = raw
+	const line = r.split(' ')
+	const [ method, url, ...] = line
+	const { path, query } = parsedPath(url)
+	const message = r.split('\r\n\r\n')
+	const headers =
+}
+
 // 响应函数
 // 根据 request 生成对应的 response
-const responseFor = (r, request) => {
-	const raw = r
-	const raws = raw.split(' ')
+const responseFor = (raw, request) => {
+	// 解析原始请求
+	const r = parseRaw(raw)
+	request.method = r.method
+	request.path = r.path
+	request.query = r.query
+	request.body = r.body
 
 	request.raw = r
 	request.method = raws[0]
@@ -87,7 +102,7 @@ const run = (host='', port=3000) => {
 		socket.on('data', (data) => {
 			// 每次触发 data 事件(每次收到请求), 生成一个 request 实例
 			const request = new Request()
-			// 将 buffer 类型的数据转化为字符串
+			// 将 buffer 类型的数据转化为字符串, 取得请求原始数据
 			const r = data.toString('utf8')
 			log('接受到的原始数据\n', r)
 
