@@ -2,7 +2,12 @@
   {
     "author": "chen",
     "content": "dudu",
+    "extra": "tetra message"
+  },
+  {
+    "author": "chenxi",
+    "content": "nm\r\n",
     "extra": "tetra message",
-    "id": 0
+    "id": null
   }
 ]

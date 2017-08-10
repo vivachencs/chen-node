@@ -43,9 +43,13 @@ const template = (name) => {
     return content
 }
 
-// 通过 mapper 对象设置 header 值
-const headerFromMapper = (mapper={}) => {
-    let base = 'HTTP/1.1 200 OK\r\n'
+// 根据 mapper code 生成响应头
+const headerFromMapper = (mapper={}, code=200) => {
+    const state = {
+        200: 'HTTP/1.1 200 OK\r\n',
+        302: 'HTTP/1.1 302 Moved\r\n',
+    }
+    let base = state[code]
     const keys = Object.keys(mapper)
     const s = keys.map((k) => {
         const v = mapper[k]
@@ -131,7 +135,6 @@ const message = (request) => {
     const headers = {
         'Content-Type': 'text/html',
     }
-    // log('debug request', request)
     if (request.method === 'POST') {
         const form = request.form()
         log('debug form', form)
@@ -150,11 +153,21 @@ const profile = (request) => {
     const headers = {
         'Content-Type': 'text/html',
     }
-    let result
-    if
-    const header = headerFromMapper(headers)
+    let r
     let body = template('profile.html')
-    body = body.replace('{{result}}', result)
+    const username = currentUser(request)
+    if (username !== '游客') {
+        const u = User.findOne('username', username)
+        const header = headerFromMapper(headers)
+        body = body.replace('{{result}}', u)
+        r = header + '\r\n' + body
+    } else {
+        headers.Location = '/login'
+        const header = headerFromMapper(headers, 302)
+        log('debug header', header)
+        r = header + '\r\n' + body
+    }
+    return r
 }
 
 const static = (request) => {
