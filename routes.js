@@ -151,7 +151,7 @@ const profile = (request) => {
         'Content-Type': 'text/html',
     }
     let result
-    if 
+    if
     const header = headerFromMapper(headers)
     let body = template('profile.html')
     body = body.replace('{{result}}', result)
