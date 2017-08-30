@@ -13,9 +13,13 @@ const session = {}
 const currentUser = (request) => {
     // 获取对应的 cookie 值
     const id = request.cookies.user || ''
+
     // 将取得的 cookie 值通过 session 进行匹配
     const uid = session[id] || -1
+    log('debug uid: ', uid)
     const u = User.get(uid)
+    log('debug u routes main', u)
+    log('debug username', username)
     return u
 }
 
@@ -97,8 +101,6 @@ const message = (request) => {
     const r = header + '\r\n' + body
     return r
 }
-
-
 
 module.exports = {
     session: session,

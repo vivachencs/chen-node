@@ -3,6 +3,8 @@
  */
 const fs = require('fs')
 
+const { log } = require('../utils')
+
 const {
     session,
     currentUser,
@@ -17,8 +19,8 @@ const index = (request) => {
     }
     const header = headerFromMapper(headers)
     let body = template('index.html')
-    const username = currentUser(request)
-    // log('debug index username', username)
+	const username = currentUser(request)
+    log('debug index username', username)
     body = body.replace('{{username}}', username)
     const r = header + '\r\n' + body
     return r

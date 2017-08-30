@@ -20,13 +20,12 @@ const login = (request) => {
     let result
     if (request.method === 'POST') {
         const form = request.form()
-        const u = User.create(form)
+        const u = User.findOne('username', form.username)
+        // const u = User.create(form)
+        log('debug u: ', u)
         if (u.validateLogin()) {
-            // log('login in')
             const sid = randomStr()
-            // log('debug sid', sid)
-            session[sid] = u.username
-            // log('debug session', session)
+            session[sid] = u.id
             headers['Set-Cookie'] = `user=${sid}`
             result = '登录成功'
         } else {
