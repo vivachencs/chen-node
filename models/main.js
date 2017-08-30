@@ -2,7 +2,7 @@
  * Created by Chen on 2017/7/29.
  */
 const fs = require('fs')
-const { log } = require('./utils')
+const { log } = require('../utils')
 
 // 确保文件存在
 const ensureExists = (path) => {
@@ -41,8 +41,10 @@ class Model {
 	static dbPath() {
 		// 静态方法的 this 指向类, this.name 就是类名
 		const classname = this.name.toLowerCase()
-		const path = `${classname}.txt`
-		return path
+		const path = require('path')
+		const filename = `${classname}.txt`
+		const p = path.join(__dirname, '../db', filename)
+		return p
 	}
 
 	// 获取一个类所有的实例
@@ -90,6 +92,11 @@ class Model {
         return models
 	}
 
+	static get(id) {
+		id = parseInt(id, 10)
+		return this.findOne('id', id)
+	}
+
 	// 保存一个实例
 	save() {
 		const cls = this.constructor
@@ -121,66 +128,37 @@ class Model {
 		save(models, path)
 	}
 
+    remove(id) {
+        const cls = this.constructor
+        const models = cls.all()
+        const index = models.findIndex((e) => {
+            return e.id === id
+        })
+        if (index > -1) {
+            models.splice(index, 1)
+        }
+        const path = cls.dbPath()
+        save(models, path)
+    }
+
 	toString() {
 		const s = JSON.stringify(this, null, 2)
 		return s
 	}
 }
 
-class User extends Model {
-    constructor(form={}) {
-        super()
-		this.username = form.username || ''
-		this.password = form.password || ''
-		this.id = form.id
-		this.note = form.note || ''
-    }
+module.exports = Model
 
-    // 验证登录
-    validateLogin() {
-    	let valid = false
-        const u = User.findOne('username', this.username)
-		if (u !== null && this.password === u.password) {
-    		valid = true
-		}
-		return valid
-	}
-
-	// 验证注册
-	validataRegister() {
-    	let valid = false
-        const u = User.findOne('username', this.username)
-		if (u === null && this.username.length > 2 && this.password.length > 2) {
-            valid = true
-		}
-		return valid
-	}
-}
-
-class Message extends Model {
-    constructor(form={}) {
-        super()
-		this.author = form.author || ''
-		this.content = form.content || ''
-		this.extra = 'tetra message'
-    }
-}
-
-module.exports = {
-	User: User,
-	Message: Message,
-}
-
-const test = () => {
-	const form = {
-		username: 'chen12',
-		password: '123',
-	}
-	const u = User.findOne('username', 'chenxi')
-	log(u)
-	// // u.save()
-	// log(u.validataRegister())
-	// log()
-}
+// const test = () => {
+// 	const form = {
+// 		username: 'chen12',
+// 		password: '123',
+// 	}
+// 	const u = User.findOne('username', 'chenxi')
+// 	log(u)
+// 	// // u.save()
+// 	// log(u.validataRegister())
+// 	// log()
+// }
 
 // test()
