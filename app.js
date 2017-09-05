@@ -8,6 +8,7 @@ const Request = require('./request')
 const routeIndex = require('./routes/index')
 const routeUser = require('./routes/user')
 const routeMessage = require('./routes/message')
+const routeTodo = require('./routes/todo')
 
 // 错误处理函数
 const error = (code=404) => {
@@ -24,13 +25,10 @@ const error = (code=404) => {
 const responseFor = (raw, request) => {
 	// 定义一个基本的空 route 对象
 	const route = {}
-	const routes = Object.assign(route, routeIndex, routeUser, routeMessage)
-	// log('debug routes', routes)
+	const routes = Object.assign(route, routeIndex, routeUser, routeMessage, routeTodo)
 	// 获取 response 函数
 	const response = routes[request.path] || error
-	// log('debug response', response)
 	const resp = response(request)
-	// log('debug resp', resp)
 	return resp
 }
 
