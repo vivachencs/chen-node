@@ -16,10 +16,8 @@ const currentUser = (request) => {
 
     // 将取得的 cookie 值通过 session 进行匹配
     const uid = session[id] || -1
-    log('debug uid: ', uid)
     const u = User.get(uid)
-    log('debug u routes main', u)
-    log('debug username', username)
+    const username = u.username
     return u
 }
 
