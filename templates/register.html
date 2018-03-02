@@ -13,8 +13,16 @@
         <br>
         <input type="text" name="note" placeholder="note">
         <br>
-        <button type="submit">注册</button>
+        <button type="submit">登录</button>
     </form>
     <p>{{result}}</p>
+    {% for u in users %}
+        <div>
+            <span>{{ u.id }}</span>
+            <span>{{ u.username }}</span>
+            <span>{{ u.password }}</span>
+            <span>{{ u.note }}</span>
+        </div>
+    {% endfor %}
 </body>
 </html>

@@ -3,88 +3,81 @@
  */
 const { log, randomStr } = require('../utils')
 const {
-    session,
-    currentUser,
-    template,
-    loginRequired,
-    headerFromMapper,
+	currentUser,
+	template,
+	loginRequired,
+	httpResponse,
 } = require('./main')
+const session = require('../models/session')
 
 const User = require('../models/user')
 
-// 登录处理函数
 const login = (request) => {
-    const headers = {
-        'Content-Type': 'text/html',
-    }
-    let result
-    if (request.method === 'POST') {
-        const form = request.form()
-        const u = User.findOne('username', form.username)
-        if (u.validateLogin()) {
-            const sid = randomStr()
-            session[sid] = u.id
-            headers['Set-Cookie'] = `user=${sid}`
-            result = '登录成功'
-        } else {
-            result = '用户名或者密码错误'
-        }
-    } else {
-        result = ''
-    }
-    const user = currentUser(request)
-    const username = user ? user.username : ''
-    let body = template('login.html')
-    body = body.replace('{{result}}', result)
-    body = body.replace('{{username}}', username)
-    const header = headerFromMapper(headers)
-    const r = header + '\r\n' + body
-    return r
+	const headers = {}
+	let result
+	if (request.method === 'POST') {
+		const form = request.form()
+		const u = User.findOne('username', form.username)
+		if (u !== null && u.validateAuth(form)) {
+			const form = {
+				uid: u.id,
+			}
+			const s = session.encrypt(form)
+			headers['Set-Cookie'] = `session=${s}`
+			result = '登录成功'
+		} else {
+			result = '用户名或者密码错误'
+		}
+	} else {
+		result = ''
+	}
+	const u = currentUser(request)
+	let username
+	if (u === null) {
+		username = ''
+	} else {
+		username = u.username
+	}
+	const body = template('login.html', {
+		username: username,
+		result: result,
+	})
+	return httpResponse(body, headers)
 }
 
 const register = (request) => {
-    const headers = {
-        'Content-Type': 'text/html',
-    }
-    let result
-    if (request.method === 'POST') {
-        const form = request.form()
-        const u = User.create(form)
-        if (u.validataRegister()) {
-            u.save()
-            const us = User.all()
-            result = `注册成功<br><pre>${us}</pre>`
-        } else {
-            result = '用户名或者密码长度必须大于2'
-        }
-    } else {
-        result = ''
-    }
-    const header = headerFromMapper(headers)
-    let body = template('register.html')
-    body = body.replace('{{result}}', result)
-    const r = header + '\r\n' + body
-    return r
+	let result
+	if (request.method === 'POST') {
+		const form = request.form()
+		const u = User.register(form)
+		if (u !== null) {
+			result = `注册成功`
+		} else {
+			result = '用户名和密码长度必须大于2或者用户名已经存在'
+		}
+	} else {
+		result = ''
+	}
+	const us = User.all()
+	const body = template('register.html', {
+		result: result,
+		users: us,
+	})
+	return httpResponse(body)
 }
 
 const profile = (request) => {
-    const headers = {
-        'Content-Type': 'text/html',
-    }
-    const header = headerFromMapper(headers)
-    let body = template('profile.html')
-    const u = currentUser(request)
-    body = body.replace('{{username}}', u.username)
-    body = body.replace('{{password}}', u.password)
-    body = body.replace('{{note}}', u.note)
-    const r = header + '\r\n' + body
-    return r
+	const u = currentUser(request)
+	const body = template('profile.html', {
+		user: u,
+	})
+	return httpResponse(body)
 }
 
 const routeUser = {
-    '/login': login,
-    '/register': register,
-    '/profile': loginRequired(profile),
+	'/login': login,
+	'/register': register,
+	'/profile': loginRequired(profile),
 }
 
 module.exports = routeUser
