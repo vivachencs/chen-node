@@ -21,8 +21,6 @@ const login = (request) => {
     if (request.method === 'POST') {
         const form = request.form()
         const u = User.findOne('username', form.username)
-        // const u = User.create(form)
-        log('debug u: ', u)
         if (u.validateLogin()) {
             const sid = randomStr()
             session[sid] = u.id
@@ -34,7 +32,8 @@ const login = (request) => {
     } else {
         result = ''
     }
-    const username = currentUser(request)
+    const user = currentUser(request)
+    const username = user ? user.username : ''
     let body = template('login.html')
     body = body.replace('{{result}}', result)
     body = body.replace('{{username}}', username)
@@ -72,27 +71,20 @@ const profile = (request) => {
     const headers = {
         'Content-Type': 'text/html',
     }
-    let r
+    const header = headerFromMapper(headers)
     let body = template('profile.html')
-    const username = currentUser(request)
-    if (username !== '游客') {
-        const u = User.findOne('username', username)
-        const header = headerFromMapper(headers)
-        body = body.replace('{{result}}', u)
-        r = header + '\r\n' + body
-    } else {
-        headers.Location = '/login'
-        const header = headerFromMapper(headers, 302)
-        log('debug header', header)
-        r = header + '\r\n' + body
-    }
+    const u = currentUser(request)
+    body = body.replace('{{username}}', u.username)
+    body = body.replace('{{password}}', u.password)
+    body = body.replace('{{note}}', u.note)
+    const r = header + '\r\n' + body
     return r
 }
 
 const routeUser = {
     '/login': login,
     '/register': register,
-    'profile': loginRequired(profile),
+    '/profile': loginRequired(profile),
 }
 
 module.exports = routeUser

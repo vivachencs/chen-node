@@ -17,7 +17,6 @@ const currentUser = (request) => {
     // 将取得的 cookie 值通过 session 进行匹配
     const uid = session[id] || -1
     const u = User.get(uid)
-    const username = u.username
     return u
 }
 
@@ -70,6 +69,7 @@ const redirect = (url) => {
     return r
 }
 
+// 检测是否登录, 装饰器
 const loginRequired = (routeFunc) => {
     const func = (request) => {
         const u = currentUser(request)
