@@ -13,8 +13,10 @@ const {
 const index = (request) => {
 	const u = currentUser(request)
 	const username = u ? u.username : ''
+	const id = u ? u.id : ''
 	let body = template('index.html', {
 		username: username,
+		id: id,
 	})
 	return httpResponse(body)
 }

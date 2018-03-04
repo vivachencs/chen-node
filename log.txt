@@ -575,3 +575,2614 @@ Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
 
 username=chen&password=123
 19:36:21 请求结束
+12:44:1 listening server at http://0.0.0.0:5000
+12:44:12 请求开始
+12:44:12 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+12:44:12 请求结束
+12:44:12 请求开始
+12:44:12 ip and request, 127.0.0.1
+GET /robots.txt HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: */*
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+12:44:12 请求结束
+12:44:12 请求开始
+12:44:12 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+12:44:12 请求结束
+12:44:22 请求开始
+12:44:22 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+12:44:22 请求结束
+12:44:26 请求开始
+12:44:26 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+12:44:26 请求结束
+12:45:9 listening server at http://0.0.0.0:5000
+12:45:14 请求开始
+12:45:14 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+12:45:14 请求结束
+12:45:14 debug,
+12:45:41 listening server at http://0.0.0.0:5000
+12:45:44 请求开始
+12:45:44 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+12:45:44 请求结束
+12:45:44 debug,,chen
+12:48:35 listening server at http://0.0.0.0:5000
+12:52:44 listening server at http://0.0.0.0:5000
+12:52:48 请求开始
+12:52:48 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+12:52:48 请求结束
+12:53:1 listening server at http://0.0.0.0:5000
+12:53:5 请求开始
+12:53:5 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+12:53:5 请求结束
+12:53:5 false
+12:53:10 listening server at http://0.0.0.0:5000
+12:53:39 listening server at http://0.0.0.0:5000
+12:53:50 listening server at http://0.0.0.0:5000
+12:53:55 请求开始
+12:53:55 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+12:53:55 请求结束
+12:55:49 listening server at http://0.0.0.0:5000
+12:56:21 listening server at http://0.0.0.0:5000
+12:56:53 请求开始
+12:56:53 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+12:56:53 请求结束
+12:57:1 listening server at http://0.0.0.0:5000
+12:57:21 listening server at http://0.0.0.0:5000
+12:57:24 请求开始
+12:57:24 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+12:57:24 请求结束
+12:57:29 listening server at http://0.0.0.0:5000
+12:58:18 listening server at http://0.0.0.0:5000
+12:58:21 请求开始
+12:58:21 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+12:58:21 请求结束
+12:58:27 listening server at http://0.0.0.0:5000
+12:58:46 listening server at http://0.0.0.0:5000
+12:58:48 请求开始
+12:58:48 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+12:58:48 请求结束
+12:59:0 listening server at http://0.0.0.0:5000
+12:59:3 请求开始
+12:59:3 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+12:59:3 请求结束
+12:59:11 listening server at http://0.0.0.0:5000
+13:1:25 listening server at http://0.0.0.0:5000
+13:1:33 请求开始
+13:1:33 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+13:1:33 请求结束
+13:2:22 listening server at http://0.0.0.0:5000
+13:2:27 listening server at http://0.0.0.0:5000
+13:2:34 请求开始
+13:2:34 ip and request, 127.0.0.1
+GET /robots.txt HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: */*
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+13:2:34 请求结束
+13:2:38 请求开始
+13:2:38 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:5000
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+13:2:38 请求结束
+13:2:38 debug,{
+  "id": 1,
+  "username": "chen",
+  "password": "6aa61ba1213b734b79cd659110994562d085d326",
+  "note": "123"
+},chen
+13:2:38 请求开始
+13:2:38 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:2:38 请求结束
+13:2:44 请求开始
+13:2:44 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:2:44 请求结束
+13:2:44 请求开始
+13:2:44 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:2:44 请求结束
+13:2:46 请求开始
+13:2:46 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:2:46 请求结束
+13:2:46 请求开始
+13:2:46 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:2:46 请求结束
+13:2:46 请求开始
+13:2:46 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:2:46 请求结束
+13:5:15 请求开始
+13:5:15 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:15 请求结束
+13:5:15 请求开始
+13:5:15 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:15 请求结束
+13:5:16 请求开始
+13:5:16 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:16 请求结束
+13:5:17 请求开始
+13:5:17 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:17 请求结束
+13:5:23 请求开始
+13:5:23 ip and request, 127.0.0.1
+GET /register HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:23 请求结束
+13:5:26 请求开始
+13:5:26 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:26 请求结束
+13:5:26 请求开始
+13:5:26 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:26 请求结束
+13:5:27 请求开始
+13:5:27 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:27 请求结束
+13:5:28 请求开始
+13:5:28 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:28 请求结束
+13:5:28 请求开始
+13:5:28 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:28 请求结束
+13:5:28 请求开始
+13:5:28 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:28 请求结束
+13:5:30 请求开始
+13:5:30 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:30 请求结束
+13:5:30 请求开始
+13:5:30 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:30 请求结束
+13:5:30 请求开始
+13:5:30 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:30 请求结束
+13:5:31 请求开始
+13:5:31 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:31 请求结束
+13:5:32 请求开始
+13:5:32 ip and request, 127.0.0.1
+GET /register HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:33 请求结束
+13:5:47 请求开始
+13:5:47 ip and request, 127.0.0.1
+GET /todo HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:47 请求结束
+13:5:49 请求开始
+13:5:49 ip and request, 127.0.0.1
+GET /weibo/index HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://localhost:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+13:5:49 请求结束
+14:26:59 listening server at http://0.0.0.0:5000
+14:27:0 请求开始
+14:27:0 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+14:27:0 请求结束
+14:27:40 listening server at http://0.0.0.0:5000
+14:27:43 请求开始
+14:27:43 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+14:27:43 请求结束
+13:12:46 listening server at http://0.0.0.0:5000
+13:12:50 请求开始
+13:12:50 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:12:50 请求结束
+13:16:43 listening server at http://0.0.0.0:5000
+13:16:57 listening server at http://0.0.0.0:5000
+13:16:59 请求开始
+13:16:59 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:16:59 请求结束
+13:17:13 listening server at http://0.0.0.0:5000
+13:17:15 请求开始
+13:17:15 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:17:15 请求结束
+13:17:23 listening server at http://0.0.0.0:5000
+13:17:24 请求开始
+13:17:24 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:17:24 请求结束
+13:17:24 debug currentUser
+13:17:31 listening server at http://0.0.0.0:5000
+13:17:58 listening server at http://0.0.0.0:5000
+13:17:59 请求开始
+13:17:59 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:17:59 请求结束
+13:17:59 debug currentUser fungtion s,eyJ1aWQiOjF9
+13:19:56 listening server at http://0.0.0.0:5000
+13:22:17 listening server at http://0.0.0.0:5000
+13:22:21 请求开始
+13:22:21 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y
+
+
+13:22:21 请求结束
+13:22:21 debug currentUser fungtion s,eyJ1aWQiOjF9
+13:23:19 listening server at http://0.0.0.0:5000
+13:23:45 listening server at http://0.0.0.0:5000
+13:23:47 请求开始
+13:23:47 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:23:47 请求结束
+13:23:47 debug currentUser fungtion s,eyJ1aWQiOjF9
+13:24:6 listening server at http://0.0.0.0:5000
+13:24:16 listening server at http://0.0.0.0:5000
+13:24:17 请求开始
+13:24:17 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:24:17 请求结束
+13:24:17 debug currentUser fungtion s,eyJ1aWQiOjF9
+13:24:30 listening server at http://0.0.0.0:5000
+13:24:52 listening server at http://0.0.0.0:5000
+13:24:53 请求开始
+13:24:53 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:24:53 请求结束
+13:24:53 debug currentUser fungtion s,eyJ1aWQiOjF9
+13:25:13 listening server at http://0.0.0.0:5000
+13:25:15 请求开始
+13:25:15 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:25:15 请求结束
+13:25:15 debug currentUser fungtion s,eyJ1aWQiOjF9
+13:25:23 listening server at http://0.0.0.0:5000
+13:25:24 请求开始
+13:25:24 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:25:24 请求结束
+13:25:24 debug currentUser fungtion s,eyJ1aWQiOjF9
+13:25:28 listening server at http://0.0.0.0:5000
+13:27:29 listening server at http://0.0.0.0:5000
+13:27:37 listening server at http://0.0.0.0:5000
+13:27:39 请求开始
+13:27:39 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:27:39 请求结束
+13:27:39 c test1
+13:27:45 listening server at http://0.0.0.0:5000
+13:27:53 listening server at http://0.0.0.0:5000
+13:27:54 请求开始
+13:27:54 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:27:54 请求结束
+13:28:12 listening server at http://0.0.0.0:5000
+13:28:51 listening server at http://0.0.0.0:5000
+13:28:52 请求开始
+13:28:52 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:28:52 请求结束
+13:29:1 listening server at http://0.0.0.0:5000
+13:29:48 listening server at http://0.0.0.0:5000
+13:31:49 listening server at http://0.0.0.0:5000
+13:31:57 listening server at http://0.0.0.0:5000
+13:32:35 listening server at http://0.0.0.0:5000
+13:33:22 listening server at http://0.0.0.0:5000
+13:33:25 请求开始
+13:33:25 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:33:25 请求结束
+13:33:33 listening server at http://0.0.0.0:5000
+13:33:33 请求开始
+13:33:33 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:33:33 请求结束
+13:33:53 listening server at http://0.0.0.0:5000
+13:33:54 请求开始
+13:33:54 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:33:54 请求结束
+13:34:22 listening server at http://0.0.0.0:5000
+13:34:29 请求开始
+13:34:29 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:34:29 请求结束
+13:35:22 listening server at http://0.0.0.0:5000
+13:35:25 请求开始
+13:35:25 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:35:25 请求结束
+13:35:43 listening server at http://0.0.0.0:5000
+13:35:47 请求开始
+13:35:47 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:35:47 请求结束
+13:35:56 listening server at http://0.0.0.0:5000
+13:37:35 请求开始
+13:37:35 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y; Webstorm-861486d2=01a41da1-674c-4cf5-b60b-52520e1ae8b9
+
+
+13:37:35 请求结束
+13:38:50 listening server at http://0.0.0.0:5000
+13:39:20 listening server at http://0.0.0.0:5000
+13:40:7 listening server at http://0.0.0.0:5000
+13:50:5 请求开始
+13:50:5 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y
+
+
+13:50:5 请求结束
+13:50:54 listening server at http://0.0.0.0:5000
+13:51:18 listening server at http://0.0.0.0:5000
+13:51:21 请求开始
+13:51:21 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: localhost:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjF9; session.sig=2mRMt3C3rP_tqgUqQ49brX-hL4Y
+
+
+13:51:21 请求结束
+14:18:1 listening server at http://0.0.0.0:5000
+14:18:16 listening server at http://0.0.0.0:5000
+14:18:25 请求开始
+14:18:25 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjJ9; session.sig=65tUK75zYqv9jRBHS4VfQjni9GA
+
+
+14:18:25 请求结束
+14:20:7 listening server at http://0.0.0.0:5000
+14:20:8 listening server at http://0.0.0.0:5000
+14:20:11 请求开始
+14:20:11 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjJ9; session.sig=65tUK75zYqv9jRBHS4VfQjni9GA
+
+
+14:20:11 请求结束
+14:20:42 listening server at http://0.0.0.0:5000
+14:20:44 listening server at http://0.0.0.0:5000
+14:20:45 请求开始
+14:20:45 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+14:20:45 请求结束
+14:20:45 请求开始
+14:20:45 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+14:20:45 请求结束
+14:20:45 请求开始
+14:20:45 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+14:20:45 请求结束
+14:20:49 请求开始
+14:20:49 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+14:20:49 请求结束
+14:20:49 请求开始
+14:20:49 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+14:20:49 请求结束
+14:20:52 请求开始
+14:20:52 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+14:20:52 请求结束
+14:20:52 请求开始
+14:20:52 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:52 请求结束
+14:20:53 请求开始
+14:20:53 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:53 请求结束
+14:20:53 请求开始
+14:20:53 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:53 请求结束
+14:20:54 请求开始
+14:20:54 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:54 请求结束
+14:20:54 请求开始
+14:20:54 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:54 请求结束
+14:20:55 请求开始
+14:20:55 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:55 请求结束
+14:20:55 请求开始
+14:20:55 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:55 请求结束
+14:20:56 请求开始
+14:20:56 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:56 请求结束
+14:20:56 请求开始
+14:20:56 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:56 请求结束
+14:20:56 请求开始
+14:20:56 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:56 请求结束
+14:20:57 请求开始
+14:20:57 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:57 请求结束
+14:20:57 请求开始
+14:20:57 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:57 请求结束
+14:20:57 请求开始
+14:20:57 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:57 请求结束
+14:20:59 请求开始
+14:20:59 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:59 请求结束
+14:20:59 请求开始
+14:20:59 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:59 请求结束
+14:20:59 请求开始
+14:20:59 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:20:59 请求结束
+14:21:0 请求开始
+14:21:0 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:0 请求结束
+14:21:0 请求开始
+14:21:0 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:0 请求结束
+14:21:0 请求开始
+14:21:0 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:0 请求结束
+14:21:2 请求开始
+14:21:2 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:2 请求结束
+14:21:2 请求开始
+14:21:2 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:2 请求结束
+14:21:2 请求开始
+14:21:2 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:2 请求结束
+14:21:7 请求开始
+14:21:7 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:7 请求结束
+14:21:7 请求开始
+14:21:7 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:7 请求结束
+14:21:7 请求开始
+14:21:7 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:7 请求结束
+14:21:11 请求开始
+14:21:11 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=eyJ1aWQiOjJ9; session.sig=65tUK75zYqv9jRBHS4VfQjni9GA
+
+
+14:21:11 请求结束
+14:21:15 listening server at http://0.0.0.0:5000
+14:21:17 listening server at http://0.0.0.0:5000
+14:21:21 请求开始
+14:21:21 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+14:21:21 请求结束
+14:21:22 请求开始
+14:21:22 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+14:21:22 请求结束
+14:21:22 请求开始
+14:21:22 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+14:21:22 请求结束
+14:21:40 请求开始
+14:21:40 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+14:21:40 请求结束
+14:21:40 请求开始
+14:21:40 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+14:21:40 请求结束
+14:21:44 请求开始
+14:21:44 ip and request, 127.0.0.1
+POST /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+username=chen&password=123
+14:21:44 请求结束
+14:21:44 请求开始
+14:21:44 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:44 请求结束
+14:21:46 请求开始
+14:21:46 ip and request, 127.0.0.1
+GET /login HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:46 请求结束
+14:21:46 请求开始
+14:21:46 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:46 请求结束
+14:21:47 请求开始
+14:21:47 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:47 请求结束
+14:21:48 请求开始
+14:21:48 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:48 请求结束
+14:21:48 请求开始
+14:21:48 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:48 请求结束
+14:21:48 请求开始
+14:21:48 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:48 请求结束
+14:21:50 请求开始
+14:21:50 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:50 请求结束
+14:21:50 请求开始
+14:21:50 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:50 请求结束
+14:21:50 请求开始
+14:21:50 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:50 请求结束
+14:21:51 请求开始
+14:21:51 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:51 请求结束
+14:21:51 请求开始
+14:21:51 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:51 请求结束
+14:21:51 请求开始
+14:21:51 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:51 请求结束
+14:21:52 请求开始
+14:21:52 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:52 请求结束
+14:21:52 请求开始
+14:21:52 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:52 请求结束
+14:21:52 请求开始
+14:21:52 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:21:52 请求结束
+14:23:16 请求开始
+14:23:16 ip and request, 127.0.0.1
+GET /todo HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:16 请求结束
+14:23:16 请求开始
+14:23:16 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:16 请求结束
+14:23:19 请求开始
+14:23:19 ip and request, 127.0.0.1
+POST /todo/add HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 24
+Cache-Control: max-age=0
+Origin: http://127.0.0.1:5000
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+title=%E5%90%83%E9%A5%AD
+14:23:19 请求结束
+14:23:19 请求开始
+14:23:19 ip and request, 127.0.0.1
+GET /todo HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:19 请求结束
+14:23:19 请求开始
+14:23:19 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:19 请求结束
+14:23:21 请求开始
+14:23:21 ip and request, 127.0.0.1
+GET /todo/edit?id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:21 请求结束
+14:23:21 请求开始
+14:23:21 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo/edit?id=1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:21 请求结束
+14:23:22 请求开始
+14:23:22 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:22 请求结束
+14:23:23 请求开始
+14:23:23 ip and request, 127.0.0.1
+GET /todo/delete?id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:23 请求结束
+14:23:23 请求开始
+14:23:23 ip and request, 127.0.0.1
+GET /todo HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:23 请求结束
+14:23:23 请求开始
+14:23:23 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:23 请求结束
+14:23:25 请求开始
+14:23:25 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:25 请求结束
+14:23:26 请求开始
+14:23:26 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/todo
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:26 请求结束
+14:23:26 请求开始
+14:23:26 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:26 请求结束
+14:23:28 请求开始
+14:23:28 ip and request, 127.0.0.1
+GET /message HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:28 请求结束
+14:23:29 请求开始
+14:23:29 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/message
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:29 请求结束
+14:23:29 请求开始
+14:23:29 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:29 请求结束
+14:23:30 请求开始
+14:23:30 ip and request, 127.0.0.1
+GET /weibo/index HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:23:30 请求结束
+14:24:49 listening server at http://0.0.0.0:5000
+14:24:52 listening server at http://0.0.0.0:5000
+14:24:53 请求开始
+14:24:53 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:24:53 请求结束
+14:24:53 请求开始
+14:24:53 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:24:53 请求结束
+14:24:55 请求开始
+14:24:55 ip and request, 127.0.0.1
+GET /weibo/index HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:24:55 请求结束
+14:26:43 listening server at http://0.0.0.0:5000
+14:26:44 请求开始
+14:26:44 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:26:44 请求结束
+14:26:55 listening server at http://0.0.0.0:5000
+14:27:39 listening server at http://0.0.0.0:5000
+14:27:43 listening server at http://0.0.0.0:5000
+14:27:44 请求开始
+14:27:44 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:27:44 请求结束
+14:27:54 listening server at http://0.0.0.0:5000
+14:27:55 listening server at http://0.0.0.0:5000
+14:27:57 请求开始
+14:27:57 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:27:57 请求结束
+14:28:51 listening server at http://0.0.0.0:5000
+14:28:53 请求开始
+14:28:53 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:28:53 请求结束
+14:28:53 请求开始
+14:28:53 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:28:53 请求结束
+14:28:53 请求开始
+14:28:53 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:28:53 请求结束
+14:28:56 请求开始
+14:28:56 ip and request, 127.0.0.1
+GET /weibo/index?user_id1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:28:56 请求结束
+14:29:19 listening server at http://0.0.0.0:5000
+14:29:20 请求开始
+14:29:20 ip and request, 127.0.0.1
+GET /weibo/index?user_id1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:29:20 请求结束
+14:29:29 listening server at http://0.0.0.0:5000
+14:29:30 请求开始
+14:29:30 ip and request, 127.0.0.1
+GET / HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:29:30 请求结束
+14:29:30 请求开始
+14:29:30 ip and request, 127.0.0.1
+GET /static?file=doge.gif HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:29:30 请求结束
+14:29:30 请求开始
+14:29:30 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:29:30 请求结束
+14:29:33 请求开始
+14:29:33 ip and request, 127.0.0.1
+GET /weibo/index?user_id=1 HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:29:33 请求结束
+14:29:33 请求开始
+14:29:33 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/weibo/index?user_id=1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:29:33 请求结束
+14:29:34 请求开始
+14:29:34 ip and request, 127.0.0.1
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://127.0.0.1:5000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: session=95e173235c02a4a0a9d935f36b82a2fb
+
+
+14:29:34 请求结束

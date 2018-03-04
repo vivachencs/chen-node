@@ -150,9 +150,8 @@ class Model {
 	}
 
 	static fetchBy(key, value) {
-		const query = {
-			key: value,
-		}
+		const query = {}
+		query[key] = value
 		const result = this.fetch(query)
 		return result
 	}
